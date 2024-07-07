@@ -1,0 +1,105 @@
+body {
+
+}
+
+.container {
+  width: 300px;
+  background-color: rgb(134, 105, 164);
+  padding: 30px;
+  border: 4px red solid;
+  color: antiquewhite;
+  border-radius: 10px;
+}
+
+.para1 {
+  color: greenyellow;
+}
+
+.para2 {
+  color: white;
+}
+
+/* Bài 1 */
+.order_button {
+  background-color: rgb(237, 62, 62);
+  width: 200px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /* Bo tròn: border-radius */
+  border-radius: 40px;
+  font-weight: bold;
+  color: white;
+}
+
+.order_button:hover {
+  background-color: rgb(100, 100, 196);
+  width: 400px;
+  cursor: pointer;
+}
+
+/* Bài 3 */
+.box {
+  width: 300px;
+  min-height: 200px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: inline-block;
+  margin: 10px;
+}
+
+.box:hover {
+  margin-top: -10px;
+  cursor: pointer;
+}
+
+.box img {
+  width: 100%;
+}
+
+.box h2 {
+  font-size: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: "MergeBlack", cursive;
+}
+
+.box p {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* Bài 2 */
+
+.food_container {
+  border: 2px solid red;
+  width: 250px;
+  display: inline-block;
+}
+
+.food_container img {
+  width: 100%;
+}
+
+/* Bài 4 */
+
+.menu_container {
+    margin-top: 100px;
+    width: 80%;
+    min-height: 150px;
+    background-color: pink;
+}
+.each_food {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 0 10px;
+}
+
+.each_food h5:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.each_food img {
+    width: 100%;
+}
